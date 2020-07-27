@@ -69,9 +69,15 @@ header {
 	width: 100%;
 }
 .step-box {
-	width: 100%;
+	width: 80%;
         float: none;
+        margin: auto;
+        margin-bottom:30px
 	}
+.step-box:last-child {
+  margin-bottom: 0;
+  margin: auto;
+}
 .main-text {
         width: 100%;
 }
